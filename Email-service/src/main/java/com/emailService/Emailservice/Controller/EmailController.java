@@ -22,7 +22,7 @@ public class EmailController {
         String role=mailInfo.getRole().substring(5);
 
         sender.sendRegisterationEmail(mailInfo.getEmail(),
-                "Congratulations "+mailInfo.getUserName()+" !  You have successfully registered to crop portal as a "+role+" . Your UserId is "+mailInfo.getId(), "Registration confirmation");
+                "Congratulations "+mailInfo.getUserName()+" !  You have successfully registered to Assessment portal as a "+role+" . Your UserId is "+mailInfo.getId(), "Registration confirmation");
 
     }
 
